@@ -1,6 +1,23 @@
-tic tac toe 1: first day working on python tic tac toe project
-tic tac toe 2: second day working
-tic tac toe 3: final version of the first version
+v1: --
+
+tictactoeSave1.py: first day working on python tic tac toe project
+tictactoeSave2.py: the second of day working
+tictactoeSave3.py: final version of the first version
   problems:
-    clicking fast on board would make animations become currupt 
+    clicking fast on board would make animations become corrupt 
     gui was crappy
+    
+game1.py: final version of the first try at tic tac toe in python (tictactoeSave3.py), had issues that made the game annoying to play
+
+v2: --
+
+game2.py: day 4, completely rewrote game1.py from scratch to simplify the code, make it run smoother, new gui, and removed flaws.
+  problems:
+    couldn't, and still cant, figure out how to access a lot of variables that are in other functions
+    I didn't want to make variables global because they are very bad practice, not sure why yet. The local variables, most were being
+    used for initialization, I do not know how to pass them through the functions. Didn't think it would be possible through function
+    parameters.
+    
+game3.py: same day, final version of python tic tac toe. Basically everything is working good, to my knowledge 
+  one porblemish:
+    if you click very fast the turtle animations won't be able to keep up.
